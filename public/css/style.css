@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Add box-sizing for better layout consistency */
+}
+
+body {
+    background-color: #fff;
+}
+
+footer {
+    background-color: #c0c0c0;
+}
+
+.bg-custom {
+    background-color: #D4FDED;
+}
+.bg-custom2 {
+    background-color: #54967d;
+}
+header h1, header h2{
+    font-family: 'Kaisei Decol', serif;
+}
+.nav-pills .nav-link {
+    padding: 1 rem 1.5 rem;
+}
+.sticky-tabs {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Adjust z-index as needed */
+    background-color: #54967d; /* Adjust background color as needed */
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+.carousel-slide {
+    width: 100%;
+    height: 32rem;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+
+.carousel-slide .carousel-inner .carousel-item img {
+    height: 32rem;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+.first-part{
+    background: #c0c0c0;
+
+}
+
+ .btn-custom{
+    background-color: #54967d;
+}
